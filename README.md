@@ -30,8 +30,19 @@ The study highlights the decisive impact of the GPU memory hierarchy and coopera
 
 ---
 
-## Compilation
 
+## Compilation Environment
+
+All CUDA codes in this project **must be compiled** using the **x64 Native Tools Command Prompt for VS** (Visual Studio Developer Command Prompt).
+
+### How to open it:
+1. Search for **"x64 Native Tools Command Prompt for VS"** in the Windows Start Menu  
+2. Or go to:  
+   `Start → Visual Studio 2026 → x64 Native Tools Command Prompt for VS 2026`
+
+> **Important:**  
+> Do **not** use the regular Command Prompt or PowerShell.  
+> The CUDA compiler (`nvcc`) and the required environment variables are only available inside the **x64 Native Tools Command Prompt**.
 ### CPU Single Core version
 cl /O2 /EHsc src\cpu_matmul.cpp /Fe:cpu_matmul.exe
 
