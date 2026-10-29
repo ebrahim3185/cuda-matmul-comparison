@@ -33,20 +33,21 @@ The study highlights the decisive impact of the GPU memory hierarchy and coopera
 ## Compilation
 
 ### CPU Single Core version
-g++ -O3 -o cpu_matmul cpu_matmul.cpp
+cl /O2 /EHsc src\cpu_matmul.cpp /Fe:cpu_matmul.exe
 
 ### GPU Naive CUDA version
 
-g++ -O3 -o cpu_matmul cpu_matmul.cpp
+nvcc -O3 src\naive_matmul.cu -o naive_matmul.exe
 
 ### GPU Tiled CUDA version
 
-g++ -O3 -o cpu_matmul cpu_matmul.cpp
+nvcc -O3 src\tiled_matmul.cu -o tiled_matmul.exe
 
 ### Execution
-- ./cpu_matmul
-- ./naive_matmul
-- ./tiled_matmul
+- cpu_matmul.exe  
+- naive_matmul.exe  
+- tiled_matmul.exe  
+
 
 **Author:** Ebrahim Khodadadi  
 **Course:** Operating Systems  
