@@ -48,9 +48,9 @@ g++ -O3 -o cpu_matmul cpu_matmul.cpp
 g++ -O3 -o cpu_matmul cpu_matmul.cpp
 
 ### Execution
-./cpu_matmul
-./naive_matmul
-./tiled_matmul
+- ./cpu_matmul
+- ./naive_matmul
+- ./tiled_matmul
 
 
 
