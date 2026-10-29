@@ -1,10 +1,6 @@
 # Performance Comparison of CPU and CUDA Matrix Multiplication  
 ### A Study of Naive vs. Tiled Shared-Memory Implementations
 
-**Author:** [Your Name]  
-**Course:** Operating Systems  
-**Date:** [Month Year]  
-**Email:** [your.email@example.com]  
 
 ---
 
@@ -51,6 +47,12 @@ g++ -O3 -o cpu_matmul cpu_matmul.cpp
 - ./cpu_matmul
 - ./naive_matmul
 - ./tiled_matmul
+
+**Author:** Ebrahim Khodadadi  
+**Course:** Operating Systems  
+**Date:** October 2026 
+**Email:** khodadadie56@gmail.com
+
 
 
 
