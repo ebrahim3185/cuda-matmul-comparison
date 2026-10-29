@@ -52,10 +52,6 @@ g++ -O3 -o cpu_matmul cpu_matmul.cpp
 ./naive_matmul
 ./tiled_matmul
 
-Each program performs a short warm-up followed by five timed runs and prints:
-Average / best execution time (ms)
-Average / best performance (GFLOPS)
-Configuration details (matrix size, block/tile size, etc.)
 
 
 
