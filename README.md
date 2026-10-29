@@ -48,10 +48,10 @@ g++ -O3 -o cpu_matmul cpu_matmul.cpp
 - ./naive_matmul
 - ./tiled_matmul
 
--**Author:** Ebrahim Khodadadi  
--**Course:** Operating Systems  
--**Date:** October 2026 
--**Email:** khodadadie56@gmail.com
+**Author:** Ebrahim Khodadadi  
+**Course:** Operating Systems  
+**Date:** October 2026  
+**Email:** khodadadie56@gmail.com  
 
 
 
